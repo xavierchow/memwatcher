@@ -1,7 +1,7 @@
 {
   "name": "memwatcher",
   "version": "1.0.0",
-  "description": "",
+  "description": "A memory dumper when leaking occurs",
   "main": "index.js",
   "scripts": {
     "test": "ava"
@@ -14,5 +14,17 @@
   },
   "devDependencies": {
     "ava": "^0.24.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xavierchow/memwatcher.git"
+  },
+  "keywords": [
+    "memory-leak",
+    "heap"
+  ],
+  "bugs": {
+    "url": "https://github.com/xavierchow/memwatcher/issues"
+  },
+  "homepage": "https://github.com/xavierchow/memwatcher#readme"
 }
