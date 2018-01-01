@@ -1,5 +1,6 @@
 MemWatcher
 ================
+[![Build Status](https://travis-ci.com/xavierchow/memwatcher.svg?token=pAkA6aqQPy1KWqnvisAQ&branch=master)](https://travis-ci.com/xavierchow/memwatcher)
 
 Intro
 ---------------
