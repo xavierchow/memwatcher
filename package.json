@@ -4,7 +4,7 @@
   "description": "A memory dumper when leaking occurs",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava --verbose test/*.test.js"
   },
   "author": "xavierchow",
   "license": "MIT",
