@@ -3,6 +3,7 @@
 const memwatch = require('memwatch-next');
 const heapdump = require('heapdump');
 const path = require('path');
+const { StatsEmitter } = require('./lib/stats_emitter')
 const debug = require('debug')('memwatcher')
 
 module.exports = (options) => {
