@@ -10,7 +10,7 @@ test.cb(t => {
   const dumpFile = '/tmp/test.heapsnapshot'
   process.env.MONITOR_MEM = 'on'
   const opt = {
-    dumpFile,
+    dumpFileDir: dumpFile,
     callback: () => {
       t.true(fs.existsSync(dumpFile))
       t.end()

@@ -1,6 +1,6 @@
 'use strict';
 
-const memwatch = require('memwatch-next');
+const memwatch = require('node-memwatch');
 const heapdump = require('heapdump');
 const path = require('path');
 const { StatsEmitter } = require('./lib/stats_emitter')
