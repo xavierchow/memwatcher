@@ -1,6 +1,6 @@
 {
   "name": "memwatcher",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A memory dumper when leaking occurs",
   "main": "index.js",
   "scripts": {
